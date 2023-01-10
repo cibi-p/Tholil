@@ -1,2 +1,3 @@
-# ClubofEliteGceb
-To create website for club of elite
+# Tholil
+## What is Tholil?
+Tholil is the opensource website, Developed to make the student able to find the roadmap for there desiered role or choose there desiered one. It gives the Detailed discription of there role, Steps, Courses (free and paid), Some simple project idea or reference, links for company related to the roles or Linked profile required to get placed in there desiered role. (In Developing Stage).
