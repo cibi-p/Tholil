@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    color:#8A1616;
+    font-family:sans-serif;
+}
+body{
+    background-color: #EAC3C3;
+    padding:30px;
+}
+h1{
+    margin:10px auto;
+    width:max-content;
+}
+h2{
+    margin: 10px 0;
+}
+p{
+    margin-bottom:20px;
+}
+ul{
+    padding-left:40px;
+}
+ol{
+    padding-left:50px;
+}
+img{
+    display:block;
+    margin:30px auto;
+    width:max-content;
+}
+td,  th{
+    border:1px solid #8A1616;
+    padding:8px;
+    border-radius:10px;
+}
+.revieww-card{
+    width:250px;
+    background-color:#EAC3C3;
+    box-shadow: 4px 4px 12px 3px gray;
+    padding:20px;
+    margin:10px 20px;
+    border-radius:20px;
+}
+.name{
+    font-weight:bold;
+}
+
+section.review{
+    display:flex;
+    flex-direction:row;
+    padding:10px 20px;
+    width:max-content;
+    margin:auto;
+}
+
