@@ -1,9 +1,9 @@
 # Hackerrank
 ## What is hackerrank?
 <details><summary>Click me to Read</summary>
-It is the online website to practice coding. This website user profile is recognized by the various company. If your profile has badges, then it is very useful for your placement and you can add your profile link to the resume.
+It is the online website to practice coding. This website user profile is recognized by the various company. If your profile has badges, then it is very useful for your placement and you can add your profile link to the resume.  
 
-<img src="https://user-images.githubusercontent.com/57592824/215382241-ea02f374-0986-4c24-a859-53b06a8f63eb.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/>
+<img src="https://user-images.githubusercontent.com/57592824/215382241-ea02f374-0986-4c24-a859-53b06a8f63eb.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/>  
 
 <img src="https://user-images.githubusercontent.com/57592824/215382251-d6f5b612-8d14-4cf8-bbb0-7f4eaa5baccb.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;" />
 </details>
