@@ -1,26 +1,24 @@
 # Hackerrank
 ## What is hackerrank?
 <details><summary>Click me to Read</summary>
-It is the online website to practice coding. This website user profile is recognized by the various company. If your profile has badges, then it is very useful for your placement and you can add your profile link to the resume.
-
-<img src="https://user-images.githubusercontent.com/57592824/215382241-ea02f374-0986-4c24-a859-53b06a8f63eb.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/>
+It is the online website to practice coding. This website user profile is recognized by the various company. If your profile has badges, then it is very useful for your placement and you can add your profile link to the resume.<br />
+<img src="https://user-images.githubusercontent.com/57592824/215382241-ea02f374-0986-4c24-a859-53b06a8f63eb.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/>  
 
 <img src="https://user-images.githubusercontent.com/57592824/215382251-d6f5b612-8d14-4cf8-bbb0-7f4eaa5baccb.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;" />
 </details>
 
 ## Use of hackerrank?
 <details><summary>Click me to Read</summary>
-- It contains numerous amount of the programming problem to get good in Algorithms. Which is help you in the coding round in your interview process(All most all of the Interviews has the coding round).
-- It has [InterviewKit](https://www.hackerrank.com/interview/preparation-kits), which helps you to get prepare for coding interview round.  
-<img src="https://user-images.githubusercontent.com/57592824/215276241-14053203-b4d6-44d0-8787-ece79408e281.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/>
-
-- It has various preparation Topics.  
-<img src="https://user-images.githubusercontent.com/57592824/215276295-41de3a6c-079a-4099-bef8-e858e44c687b.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;" />
-
-- If you want a good job, you should known problems solving. Hackerrank provides you to solve the numerous about of programming problems. It also conduct contest and some time with prizes.
-<img src="https://user-images.githubusercontent.com/57592824/215382738-f8aaca8f-ac55-4999-9308-d1ae1adfa915.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;" />  
-- you also get certificate, if you pass the test.     
-<img src="https://user-images.githubusercontent.com/57592824/215385246-8c843b81-517b-4cda-9233-c7e15692e7de.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/>
+  
+- It contains numerous amount of the programming problem to get good in Algorithms. Which is help you in the coding round in your interview process(All most all of the Interviews has the coding round).<br />
+- It has [InterviewKit](https://www.hackerrank.com/interview/preparation-kits), which helps you to get prepare for coding interview round.  <br />
+<img src="https://user-images.githubusercontent.com/57592824/215276241-14053203-b4d6-44d0-8787-ece79408e281.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/><br/>
+- It has various preparation Topics.  <br />
+<img src="https://user-images.githubusercontent.com/57592824/215276295-41de3a6c-079a-4099-bef8-e858e44c687b.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;" /><br />
+- If you want a good job, you should known problems solving. Hackerrank provides you to solve the numerous about of programming problems. It also conduct contest and some time with prizes.<br />
+<img src="https://user-images.githubusercontent.com/57592824/215382738-f8aaca8f-ac55-4999-9308-d1ae1adfa915.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;" />  <br />
+- you also get certificate, if you pass the test.     <br />
+<img src="https://user-images.githubusercontent.com/57592824/215385246-8c843b81-517b-4cda-9233-c7e15692e7de.png" alt="hackerrank image" width=500px style="display:block;margin:auto;padding:10px 0;"/><br />
 </details>
 
 ## How to register?
