@@ -189,6 +189,37 @@
                 <a href="E-con_systems/img/E-con-Pic (4).jpg"><img src="E-con_systems/img/E-con-Pic (4).jpg"/></a>
             </div>
         </div>
+        <div class="job-title-discription-container">
+            <div class="job-title-head">
+                <h3>Job Description<p>(This will give you an idea of what the company expecting)</p></h3>
+                <button onclick="job_description_expand()" id="job-discription-expand"><span class="material-symbols-outlined">expand_more</span></button>
+            </div>
+            <div class="job-discrip-img" id="job-discrip-img">
+                <a href="E-con_systems/img/Role/role1.png"><img src="E-con_systems/img/Role/role1.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role2.png"><img src="E-con_systems/img/Role/role2.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role3.png"><img src="E-con_systems/img/Role/role3.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role4.png"><img src="E-con_systems/img/Role/role4.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role5.png"><img src="E-con_systems/img/Role/role5.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role6.png"><img src="E-con_systems/img/Role/role6.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role7.png"><img src="E-con_systems/img/Role/role7.png" alt=""></a>
+                <a href="E-con_systems/img/Role/role8.png"><img src="E-con_systems/img/Role/role8.png" alt=""></a>
+            </div>
+            <script>
+                function job_description_expand(){
+                    var ls=document.getElementById("job-discrip-img");
+                    var btn=document.getElementById("job-description-expand");
+                    console.log(ls.style.display);
+                    if(ls.style.display==="none"){
+                        ls.style.display="flex";
+                        btn.style.transform="rotate(180deg)";
+                    }
+                    else{
+                        ls.style.display="none";
+                        btn.style.transform="rotate(0deg)";
+                    }
+                }
+            </script>
+        </div>
     </div>
 </body>
 </html>

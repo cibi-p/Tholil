@@ -144,7 +144,15 @@ table{
     white-space:nowrap;
 }
 .Refer-doc::-webkit-scrollbar{
-display:none;
+height:5px;
+}
+.Refer-doc::-webkit-scrollbar-track{
+    background:#f59e9e;
+    border-radius:10px;
+}
+.Refer-doc::-webkit-scrollbar-thumb{
+    background:#953f3f;
+    border-radius:10px;
 }
 .download-refer-doc h3{
     margin-left:10px;
@@ -173,7 +181,15 @@ display:none;
     display:flex;
 }
 .company-gallery::-webkit-scrollbar{
-    display:none;
+    height:5px;
+}
+.company-gallery::-webkit-scrollbar-track{
+    background:#f59e9e !important;
+    border-radius:10px;
+}
+.company-gallery::-webkit-scrollbar-thumb{
+    background:#953f3f;
+    border-radius:10px;
 }
 .company-gallery-container h3{
     font-size:14px;
@@ -182,4 +198,58 @@ display:none;
 }
 .company-gallery-container{
     margin:20px;
+}
+
+/* job role description */
+.job-title-discription-container{
+    background-color:#1d3a91;
+    padding:20px;
+    border-radius:20px;
+}
+.job-title-discription-container .job-title-head{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+.job-title-head h3 p{
+    font-size:10px;
+}
+.job-discrip-img a{
+    display:block;
+}
+.job-discrip-img a img{
+    border-radius:20px;
+    width: 300px;
+    margin:10px;
+    box-shadow:2px 2px 10px #030b21;
+}
+.job-discrip-img{
+    margin-top:20px;
+    display:flex;
+    overflow-x:scroll;
+    align-items:center;
+}
+.job-discrip-img::-webkit-scrollbar{
+    height:5px;
+}
+.job-discrip-img::-webkit-scrollbar-track{
+    background:#D96C6C;
+    border-radius:10px;
+}
+.job-discrip-img::-webkit-scrollbar-thumb{
+    background:#953f3f;
+    border-radius:10px;
+}
+#job-discrip-img{
+    display:none;
+}
+#job-discription-expand{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    border:none;
+    background:white;
+}
+#job-discription-expand:hover{
+    cursor:pointer;
 }
