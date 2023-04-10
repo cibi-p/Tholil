@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="E-con_systems/styles.css">
+    <title>Tholil</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <label>
+                    <p>தொழில்</p>
+                    <p>Tholil</p> 
+                </label>
+                <button class="nav-toggles">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Job Road Map</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Oppertunites</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Contribue</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="../../menu.js"></script>
+    <div class="content-container">
+        <div class="path">
+            <a href="../../">Home</a><p>/</p>
+            <a href="company.html">Companies</a><p>/</p>
+            <a href="E-con_systems.html">E-Con Systems</a>
+        </div>
+        <div class="company_header">
+            <img src="E-con_systems/E-con_systems_logo.jpg" alt="logo" class="company-logo">
+            <h2>E-Con Systems Pvt. Ltd.</h2>
+        </div>
+        <div class="company-discription">
+            <p>Established in 2003, e-con Systems has grown into a leading OEM camera solution provider with a wide global footprint.<span id="discrip-rm-dots">...</span><span id="discrip-rm-content"> They provide end-to-end camera solutions like MIPI camera modules, GMSL cameras, USB 3.1 Gen 1 cameras, stereo cameras, and more. Over the years, They have reimagined how they are used in applications such as retail, medical, industrial, agriculture, smart city, etc. They are also powered by a strong partner ecosystem to offer end-to-end vision solutions, including sensor partners, ISP partners, carrier board partners, etc. So far, They have built 250+ product solutions - shipping over 2 million cameras across 90+ countries around the globe.</span>
+            </p>
+            <button onclick="reademorediscrip()" id="reademorediscrip">Read More</button>
+            <script>
+                function reademorediscrip(){
+                    var dots=document.getElementById("discrip-rm-dots");
+                    var text=document.getElementById("discrip-rm-content");
+                    var btn=document.getElementById("reademorediscrip");
+
+                    if(dots.style.display ==="none"){
+                        dots.style.display="inline";
+                        btn.innerHTML="Read More";
+                        text.style.display="none";
+                    }
+                    else{
+                        dots.style.display="none";
+                        btn.innerHTML="Read Less";
+                        text.style.display="inline";
+                    }
+                }
+            </script>
+            </div>
+            <div class="company-info-table">
+                <table>
+                    <tr>
+                        <th>Salary:</th>
+                        <td>3LPA to 8LPA (for 2024 batch), but for 2023 batch they offered only 5LPA</td>
+                    </tr>
+                    <tr>
+                        <th>Location:</th>
+                        <td>Thambaram(MEPZ), Chennai</td>
+                    </tr>
+                    <tr>
+                        <th>Ratings:</th>
+                        <td>4.4(on GlassDoor)</td>
+                    </tr>
+                    <tr>
+                        <th>GlassDoor Link:</th>
+                        <td><a href="https://www.glassdoor.co.in/Overview/Working-at-e-con-Systems-EI_IE414575.11,24.htm" target="_blank">Link</a></td>
+                    </tr>
+                    <tr>
+                        <th>Tools used in the company:</th>
+                        <td>Python, Computer Vision, C, C++, AI, Embedded Systems(protocols, designing,...etc, visualizing signal in oscilloscope), ARM, Drone, AVG, Windows and Linux OS, USB Drivers, Electronics(Analog and Digital, OpAmps), OrCad and Allegro for PCB design</td>
+                    </tr>
+                    <tr>
+                        <th>What is they working on or service they provide:</th>
+                        <td>Manufacturing Camera, Developing AI Models for camera</td>
+                    </tr>
+                </table>                
+            </div>
+            <div class="position-in-company">
+                <div class="position-head">
+                    <h3>Positions</h3>
+                    <button onclick="position_expand()" class="position_expand" id="position_expand"><span class="material-symbols-outlined">expand_more</span></button>
+                </div>
+                <div class="position-list" id="position-list">
+                    <ul>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Embedded Software Engineer /Sr. Engineer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Solution Architect / FAE (Field Application Engineer)</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">SDR (Sales Development Representative)</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">R & D Lead Engineer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Project Engineer - Product Quality</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">FAE – Imaging solutions</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Machine Learning Engineer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Technical Support Engineer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Branding Executive</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">International Business Development (SALES HUNTER)</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Hardware Engineer - Project Engineer/Sr. Project Engineer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Machine Learning Engineer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">UI Designer/Graphic Designer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Motion Graphics Designer</a></li>
+                        <li><a href="https://www.e-consystems.com/careers.asp">Robotics Engineer</a></li>
+                    </ul>
+                    <a class="view-position-in-cp" href="https://www.e-consystems.com/careers.asp">View in Company Page</a>
+                </div>
+                <script>
+                    function position_expand(){
+                        var ls = document.getElementById("position-list");
+                        var btn=document.getElementById("position_expand");
+                        if(ls.style.display==="none"){
+                            ls.style.display="block";
+                            btn.style.transform="rotate(180deg)";
+                        }
+                        else{
+                            ls.style.display="none";
+                            btn.style.transform="rotate(0deg)";
+                        }
+                    }
+                </script>
+            </div>
+        <div class="Topics-nTP">
+            <div class="Topics-nTP-head">
+                <h3>Topics Need to Cover</h3>
+                <button onclick="Topics_cover_expand()" class="Topics_cover_expand" id="Topics_cover_expand"><span class="material-symbols-outlined">expand_more</span></button>
+            </div>
+            <div class="topics-list" id="topics-list">
+                <div class="software">
+                    <p class="topic-head">For Software:</p>
+                    <p class="soft-topics">Basic Aptitude, Advanced Puzzles(logical Reasoning, Analytical), C - Datatype, Operands & Operators, Bitwise Operators, Loops and Branching, Arrays and Strings, Functions, Storage classes, scopes, pointers, Dynamic Memory Allocation, File Operations, Structures and unions, Linked List, Problem Solving</p>
+                    <p class="topic-note">Note:</p>
+                    <p class="soft-topics-note">They expect the more skills in the Problem solving, try to prepare accordingly. If you has the good experience in the hackerrank, leetcode,... etc. You can mention your profile link in the resume. Your Project is very important.</p>
+                </div>
+                <div class="hardware">
+                    <p class="topic-head">For Hardware:</p>
+                    <p class="hard-topics">Basic Aptitude, Advanced Puzzles(logical Reasoning, Analytical), Basic Electrical Circuits ( Capacitor, Resistor, VOltage, Power, Inductor, Current), Electrical Laws(ohms, KVL, KCL), Measuring Instruments(Ammeter, Voltmeter), Electron Devices (Diodes, Transistor, FET), Digital Electronics(Multiplexer, Demultiplexer, Flipflops, Logic Gates), Microcontroller and Microprocessor, Analog and Digital Converters, Mesh and Nodal Analysis, Op-Amp Basics</p>
+                    <p class="topic-note">Note:</p>
+                    <p class="hard-topics-note">Project is very important, Prepare well in Microcontroller & Processor (ARM or 8051,8086). Solve more problems in the laws, opAmps, flipflop... etc. They expect you to solve more hardware problems</p>
+                </div>
+            </div>
+            <script>
+                function Topics_cover_expand(){
+                    var ls=document.getElementById("topics-list");
+                    var btn=document.getElementById("Topics_cover_expand");
+                    console.log(ls.style.display);
+                    if(ls.style.display==="none"){
+                        ls.style.display="block";
+                        btn.style.transform="rotate(180deg)";
+                    }
+                    else{
+                        ls.style.display="none";
+                        btn.style.transform="rotate(0deg)";
+                    }
+                }
+            </script>
+        </div>
+        <div class="download-refer-doc">
+            <h3>Download Reference Documents:</h3>
+            <div class="Refer-doc">
+                <a href="E-con_systems/about-e-con.pdf" class="refer-doc-down about-econ" download>About E-Con Systems</a>
+                <a href="E-con_systems/e-con-sytem-guide.pdf" class="refer-doc-down e-con guide" download>E-Con System Guide</a>
+                <a href="E-con_systems/e-con-puzzles-and-software.pdf" class="refer-doc-down puzAndSoft" download>Puzzels and Software question</a>
+                <a href="E-con_systems/econ-hardware.pdf" class="refer-doc-down hardware-guide" download>Hardware Question</a>
+                <a href="E-con_systems/e-con-ques.pdf" class="refer-doc-down puzAndSoft" download>Model 1st Round Question</a>
+            </div>
+        </div>
+        <div class="company-gallery-container">
+            <h3>Company Images:</h3>
+            <div class="company-gallery">
+                <a href="E-con_systems/img/E-con-Pic (1).jpg"><img src="E-con_systems/img/E-con-Pic (1).jpg"/></a>
+                <a href="E-con_systems/img/E-con-Pic (2).jpg"><img src="E-con_systems/img/E-con-Pic (2).jpg"/></a>
+                <a href="E-con_systems/img/E-con-Pic (3).jpg"><img src="E-con_systems/img/E-con-Pic (3).jpg"/></a>
+                <a href="E-con_systems/img/E-con-Pic (4).jpg"><img src="E-con_systems/img/E-con-Pic (4).jpg"/></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
