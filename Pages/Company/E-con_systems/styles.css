@@ -8,6 +8,12 @@
 .content-container{
     padding:20px 50px;
 }
+@media screen and (max-width:500px)
+{
+    .content-container{
+        padding:20px 30px;
+    }
+}
 .company_header{
     display:flex;
     justify-content:left;
@@ -252,4 +258,73 @@ height:5px;
 }
 #job-discription-expand:hover{
     cursor:pointer;
+}
+
+/* Important Links */
+.important-links{
+    Background-color:#f9b6b6;
+    margin: 20px 0;
+    display:flex;
+    height:400px;
+    align-items:center;
+    /* position:absolute;
+    left:0px; */
+    overflow-x:scroll;
+    white-space:nowrap;
+    border-radius:10px;
+}
+.important-links div{
+    width: 200px;
+    min-width:250px;
+    height:250px;
+    background-color:#758cd7;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    border-radius:20px;
+    margin:10px;
+    padding:20px;
+    box-shadow:2px 2px 10px #314a9e;
+}
+.important-links div h3{
+    color:#0d2879;
+    font-size:14px;
+    text-align:center;
+    white-space: pre-wrap;
+}
+.important-links div a{
+    width:100px;
+    text-align: center;
+    padding:10px;
+    font-size:15px;
+    text-decoration:none;
+    color:white;
+    background-color:#1d3a91;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.important-links::-webkit-scrollbar{
+    height:5px;
+}
+.important-links::-webkit-scrollbar-track{
+    background:#758cd7;
+    border-radius:10px;
+}
+.important-links::-webkit-scrollbar-thumb{
+    background:#030b21;
+    border-radius:10px;
+}
+
+/* social Media */
+.social-media a img{
+    width:25px;
+    margin:20px;
+}
+.social-media{
+    display:flex;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+    background-color
 }

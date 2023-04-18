@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="E-con_systems/styles.css">
+    <title>Tholil</title>
+    <style>
+        .main{
+            padding: 10px 50px;
+        }
+        .main-heading{
+            font-size:20px;
+            text-align: center;
+            color:#43599e;
+            margin:20px auto;
+        }
+        .company{
+            display:flex;
+            flex-direction: column;
+            height:200px;
+            justify-content:center;
+            background-color:#758cd7;
+            width:200px;
+            padding:20px;
+            border-radius:20px;
+            color:rgb(204, 216, 242);
+            margin:12px;
+            box-shadow: 1px 1px 10px #758cd7;
+        }
+        .company h3{
+            font-size:16px;
+            margin-bottom: 12px;
+            color:#9f2a2a;
+            text-align:center;
+        }
+        .company p{
+            font-size:13px;
+            text-align: center;
+        }
+        .company_container{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .company a{
+            color:white;
+            text-decoration: none;
+            font-size:14px;
+            width:max-content;
+            display:block;
+            text-align:center;
+            padding:5px 14px;
+            margin:10px auto;
+            background-color:#D96C6C;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <label>
+                    <p>தொழில்</p>
+                    <p>Tholil</p> 
+                </label>
+                <button class="nav-toggles">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Job Road Map</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Oppertunites</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Contribue</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="../../menu.js"></script>
+    <div class="main" id="main">
+        <h1 class="main-heading">Companies Comes to our GCEB</h1>
+        <div class="companies-container" id="companies_container">
+            
+        </div>
+        <script src="companies.js"></script>
+        <script>
+            var text = "";
+            for (var i in companies){
+                text+='<div class="company"><h3>'+companies[i].C_name+'</h3><p>'+companies[i].Package+'</p><p>'+companies[i].Roles+'</p><p>'+companies[i].Location+'</p>'+'<a href="'+companies[i].Link+'">View More</a></div>';
+            }
+            const para = document.createElement("div");
+            para.classList.add("company_container");
+            para.innerHTML=text;
+            document.getElementById("companies_container").appendChild(para);
+        </script>
+    </div>
+</body>
+</html>
