@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="E-con_systems/styles.css">
     <title>Tholil</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3274777737673574" crossorigin="anonymous"></script>
+
     <style>
         .main{
             padding: 10px 50px;
@@ -86,22 +87,8 @@
         </nav>
     </header>
     <script src="../../menu.js"></script>
-    <div class="main" id="main">
-        <h1 class="main-heading">Companies Comes to our GCEB</h1>
-        <div class="companies-container" id="companies_container">
-            
-        </div>
-        <script src="companies.js"></script>
-        <script>
-            var text = "";
-            for (var i in companies){
-                text+='<div class="company"><h3>'+companies[i].C_name+'</h3><p>'+companies[i].Package+'</p><p>'+companies[i].Roles+'</p><p>'+companies[i].Location+'</p>'+'<a href="'+companies[i].Link+'">View More</a></div>';
-            }
-            const para = document.createElement("div");
-            para.classList.add("company_container");
-            para.innerHTML=text;
-            document.getElementById("companies_container").appendChild(para);
-        </script>
+    <div class="main">
+        <h1 class="role-title">Embedded Software Role</h1>
     </div>
 </body>
 </html>
