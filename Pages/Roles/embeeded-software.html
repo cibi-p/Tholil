@@ -10,60 +10,34 @@
     <link rel="stylesheet" href="E-con_systems/styles.css">
     <title>Tholil</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3274777737673574" crossorigin="anonymous"></script>
-
     <style>
-        .main{
-            padding: 10px 50px;
-        }
-        .main-heading{
-            font-size:20px;
-            text-align: center;
-            color:#43599e;
-            margin:20px auto;
-        }
-        .company{
-            display:flex;
-            flex-direction: column;
-            height:200px;
-            justify-content:center;
-            background-color:#758cd7;
-            width:200px;
-            padding:20px;
-            border-radius:20px;
-            color:rgb(204, 216, 242);
-            margin:12px;
-            box-shadow: 1px 1px 10px #758cd7;
-        }
-        .company h3{
-            font-size:16px;
-            margin-bottom: 12px;
-            color:#9f2a2a;
-            text-align:center;
-        }
-        .company p{
-            font-size:13px;
-            text-align: center;
-        }
-        .company_container{
-            display:flex;
-            justify-content: center;
-            align-items:center;
-        }
-        .company a{
-            color:white;
-            text-decoration: none;
-            font-size:14px;
-            width:max-content;
+        .main-right{
             display:block;
-            text-align:center;
-            padding:5px 14px;
-            margin:10px auto;
-            background-color:#D96C6C;
-            border-radius:10px;
+            width:30vw;
+            height:500px;
+            margin:20px;
+            background-color:red;
+        }
+        .main-left{
+            margin:20px;
+            width:70vw;
+        }
+        .main{
+            display:flex;
+        }
+        .real-life-expla li{
+           list-style-type:square; 
+        }
+        .inside-role-rl-expla li {
+            list-style-type:disc;
+        }
+        #expla-role{
+            display:none;
         }
     </style>
 </head>
 <body>
+    <script>Prism.highlightALL();</script>
     <header>
         <nav>
             <div class="logo">
@@ -88,7 +62,116 @@
     </header>
     <script src="../../menu.js"></script>
     <div class="main">
+        <!-- Main Left -->
+        <div class="main-left">
+            
         <h1 class="role-title">Embedded Software Role</h1>
+            <div class="Role-discrp">
+                <style>
+                    #discrip-rm-content{
+                        display:none;
+                    }
+                </style>
+                <p>Embedded Software Engineering is the process of controlling various devices and machines that are different from traditional computers, using software engineering. Integrating software engineering with non-computer devices leads to the formation of embedded systems.<span id="discrip-rm-dots">...</span></p><span id="discrip-rm-content"> <p>Embedded systems are typically popular in medical science, consumer electronics, manufacturing science, aviation, automotive technology. A typical embedded system requires a wide range of programming tools, microprocessors and operating systems. Embedded software engineering, performed by embedded software engineers, needs to be tailored to the needs of the hardware that it has to control and run on. Now that we have the answer to “what is embedded engineering”, let us understand what are the requirements of embedded systems, which includes the software for embedded systems. The software and operating system requirements of an embedded system is also different from a traditional computer based system. Typically embedded systems use basic embedded system software such as C, C++, ADA, etc. Some specialized embedded systems may use OS such as Windows CE, LINUX, TreadX, Nucleus RTOS, OSE, etc.Embedded software engineering differs from traditional application development in terms of the additional consideration to external factors such as temperature and other environmental factors that may affect performance.</p></span>
+                <button onclick="reademorediscrip()" id="reademorediscrip">Read More</button>
+                <script>
+                    function reademorediscrip(){
+                        var dots=document.getElementById("discrip-rm-dots");
+                        var text=document.getElementById("discrip-rm-content");
+                        var btn=document.getElementById("reademorediscrip");
+    
+                        if(dots.style.display ==="none"){
+                            dots.style.display="inline";
+                            btn.innerHTML="Read More";
+                            text.style.display="none";
+                        }
+                        else{
+                            dots.style.display="none";
+                            btn.innerHTML="Read Less";
+                            text.style.display="inline";
+                        }
+                    }
+                </script>
+            </div>
+            <div class="real-life-expla-container">
+                <div class="expla-head">
+                <button onclick="hidereallifeexpla()" id="hidereallifeexpla">Read Real Life Explanation</button>
+                </div>
+                <div class="expla-role" id="expla-role">
+                    <ul class="real-life-expla">
+                        <li>consider the simple example washing machine, suppose you need to wash the one week of your cloths. What you do?
+                        </li>
+                        <li>you will put your cloths, detergent in washing machine, and set the timer for 30min and choose the mode for washing (heavy/soft wash)
+                        </li>
+                        <li>Then the washing machine washes and dries your cloths and inform you when its completed by sound.</li>
+                        <li>To wash you cloths, washing machine need to decide how much water is necessary, and need to perform specific task based on the mode you selected(heavy/soft). The software takes control of all the activities.</li>
+                        <ul class="inside-role-rl-expla">
+                            <li>Software need to decide the how much of water is necessary to wash. It check the load/weight of the cloths by a specific sensor to determine the amount of water.
+                                <pre>
+                                    if (weight_of_cloth>5kg)
+                                    {
+                                        supply water of 6liters
+                                    }
+                                    if(weight of cloths< 4kg)
+                                    {
+                                        supply water of 4liters
+                                    }
+                                </pre>
+                            </li>
+                            <li>For Heavy Mode rotation should be fast and for the Soft Mode rotation should be slow.
+                                <pre>
+                                    if (Mode is "heavy")
+                                    {
+                                        speed of motor should be 800rmp;
+                                    }
+                                    if(Mode is "soft")
+                                    {
+                                        speed of motor should be 500rmp;
+                                    }
+                                </pre>
+                            </li>
+                            <li>Whether the cloth is dry or not information is required, to stop performing the drying activity. So sensor is used to get this information.</li>
+                            <li>It should know the time to stop washing in 30min.
+                            </li>
+                            <li>It produce the sound once it completed the washing</li>
+                        </ul>
+                    </ul>
+                    <img src="img/Embedded-software.png" id="embedded-img"/>
+                </div>
+                <script>
+                    function hidereallifeexpla(){
+                        var text=document.getElementById("expla-role");
+                        var btn=document.getElementById("hidereallifeexpla");
+    
+                        if(text.style.display ==="none"){
+                            btn.innerHTML="Close Real Life Explanation";
+                            text.style.display="inline";
+                        }
+                        else{
+                            btn.innerHTML="Read Real Life Explanation";
+                            text.style.display="none";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <!-- Main Right -->
+        <div class="main-right">
+        <table class="role-basic-info">
+            <tr>
+                <td>Salary for Fresher</td>
+                <td>Average 4.5LPA (2 to 15LPA)</td>
+            </tr>
+            <tr>
+                <td>Salary for Experience of more than 5 to 10 year</td>
+                <td>Average of 10LPA (5 to 40LPA)</td>
+            </tr>
+            <tr>
+                <td>Months required to learn:</td>
+                <td>12 to 20 Months</td>
+            </tr>
+        </table>
+        </div>
     </div>
 </body>
 </html>
